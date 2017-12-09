@@ -1,0 +1,13 @@
+[package]
+name = "cargo-version-cli"
+version = "0.0.0"
+authors = ["Linus Unnebäck <linus@folkdatorn.se>"]
+description = "CLI to create and tag new versions of a cargo package"
+license = "MIT"
+
+[[bin]]
+name = "cargo-version"
+path = "src/main.rs"
+
+[dependencies]
+cargo-version = "0.1.1"
