@@ -8,7 +8,7 @@ dependencies = [
 
 [[package]]
 name = "cargo-version-cli"
-version = "0.0.0"
+version = "0.1.0"
 dependencies = [
  "cargo-version 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
